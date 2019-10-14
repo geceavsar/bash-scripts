@@ -1,2 +1,2 @@
 
-This repository includes the assignments I've done for the bash scripting course.
+This repository includes bash scripts and terminal aliases I use for my own good.
