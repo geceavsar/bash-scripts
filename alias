@@ -1,3 +1,6 @@
+
+# alias for git add-commit-push process
+
 function gacp {
 	argc=$#
 	argv=("$@")
@@ -12,10 +15,23 @@ function gacp {
 		else
 			git add .
 		fi
-		git commit -m "${argv[-1]}"
+		git commit -m "${argv[*]: -1}"
 		git push origin
 		return 1
 	done
 	echo not enough input arguments
 }
 
+alias la='ls -a'
+alias ll='ls -la'
+alias ..='cd ..'
+
+function cdir {
+	mkdir $1
+	cd $1
+}
+
+function cs {
+	cd $1
+	ls
+}
