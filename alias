@@ -19,7 +19,8 @@ function gacp {
 		then  
 			git commit -m "${argv[*]: -1}"
 		else
-			git commit -m "${argv[-1]}"
+			git commit -m "${argv[-1]}" 
+			# mingw, cygwin
 		fi
 		git push origin
 		return 1
