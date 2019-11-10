@@ -1,2 +1,6 @@
 
-TIL: From now on, macOS Catalina uses z shell instead of bash as default. I don't know if there are any major differenceswith bash, but the alias "gacp" may not be compatible with zsh :(
+TIL: From now on, macOS Catalina uses z shell instead of bash as default. 
+
+I don't know if there are any major differences with bash, but the alias "gacp" may not be compatible with zsh :(
+
+
